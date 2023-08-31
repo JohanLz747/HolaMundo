@@ -1,0 +1,36 @@
+body {
+    margin:0;
+    background-color:white ;
+}
+header {
+    text-align: center;
+    background-color: #364552;
+    color: white;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+} 
+
+section article {
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+    background-color: rgb(209, 236, 85)
+}
+footer {
+    background-color: #0a527c;
+    color: rgb(7, 7, 7);
+    padding: 2rem;
+}   
+footer a {
+    float: left;
+    text-decoration: none;
+    color: black;
+}
